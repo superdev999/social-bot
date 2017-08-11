@@ -132,7 +132,7 @@ function sendGenericMessage(sender) {
 		if (error) {
 			console.log('Error sending messages: ', error)
 		} else if (response.body.error) {
-			console.log('Error: ', response.body.error)r
+			console.log('Error: ', response.body.error)
 		}
 	})
 }
